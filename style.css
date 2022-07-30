@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+@font-face {
+    font-family:  juice;
+    src: url("juice.ttf") format("opentype");
+    }
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 4px solid red;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+    background-image: url(https://images4.alphacoders.com/264/264504.jpg);
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    margin-right: 10px;
+}
+
+.logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 30px;
+}
+
+img{
+    width: 100%;
+}
+
+
+.lor{
+    position: relative;
+    bottom: 200px;
+    color: white;
+    margin: 0 50px;
+    
+}
+
+.lo{
+    font-size: 24px;
+    color: red;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social > i{
+    font-size: 24px;
+    color: red;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family:  juice;
+    font-size: 24px;
+    color: red;
+}
+
+.now{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.now > div{
+    display: flex;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.par{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.par > div{
+    display: flex;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.das{
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 50px;
+}
+
+.kk{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 150px;
+}
+
+.kk > button{
+    background-color: red;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+.so{
+    color: white;
+    font-size: 14px;
+    position: relative;
+    left: 10px;
+    
+}
+
+.but{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.but > div{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.re{
+    position: relative;
+    right: 50px;
+    background-color: red;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body{
+    background-color: black;
+  }
+  .das{
+    color: white;
+  }
+  .lor{
+    color: white;
+  }
+  .new{
+    color: white;
+  }
+  .now{
+    color: white;
+  }
+  .par{
+    color: white;
+  }
+}

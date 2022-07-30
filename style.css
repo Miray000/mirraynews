@@ -19,7 +19,7 @@ body{
 
 .main{
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr;
     grid-template-rows: 300px;
     background-image: url(https://images4.alphacoders.com/264/264504.jpg);
 }

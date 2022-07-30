@@ -20,6 +20,7 @@ body{
 .main{
     display: grid;
     grid-template-columns: 1fr;
+    
     grid-template-rows: 300px;
     background-image: url(https://images4.alphacoders.com/264/264504.jpg);
 }
@@ -131,7 +132,8 @@ h1{
     background-color: red;
     border-radius: 15px;
     border: 2px solid black;
-    width: 100px;
+    width: 200px;
+    height: 30px;
     color: white;
     cursor: pointer;
 }
@@ -161,35 +163,48 @@ h1{
     background-color: red;
     border-radius: 15px;
     border: 2px solid black;
-    width: 100px;
+    width: 200px;
+    height: 30px;
     color: white;
     cursor: pointer;
-}
-
-
-@media (prefers-color-scheme: dark) {
-  body{
-    background-color: black;
-  }
-  .das{
-    color: white;
-  }
-  .lor{
-    color: white;
-  }
-  .new{
-    color: white;
-  }
-  .now{
-    color: white;
-  }
-  .par{
-    color: white;
-  }
 }
 
 @media only screen and  (max-width: 768px){
     .social{
         display: none;
     }
+}
+
+
+
+
+@media (prefers-color-scheme: dark) {
+    body{
+      background-color: black;
+    }
+    .das{
+      color: white;
+    }
+    .lor{
+      color: white;
+    }
+    .new{
+      color: white;
+    }
+    .now{
+      color: white;
+    }
+    .par{
+      color: white;
+    }
+  }
+
+::-webkit-scrollbar{
+    width: 12px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background: purple;
+    border-radius: 15px;
 }
